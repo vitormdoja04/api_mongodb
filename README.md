@@ -51,7 +51,7 @@ API-Mongodb/
 > Abaixo, insira a imagem da modelagem do banco de dados:
 
 ```
-![Modelagem do banco de dados](imagens/2cb275e1-5f07-4370-92f1-18ec861a8029.jfif)
+![Modelagem do banco de dados](imagens/2cb275e1-5f07-4370-92f1-18ec861a8029.jpeg)
 ```
 
 ---
