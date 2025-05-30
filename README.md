@@ -1,11 +1,11 @@
 
-# 📦 API - Controle de Usuários, Treinos e Alimentação
+# API - Controle de Usuários, Treinos e Alimentação
 
 API RESTful desenvolvida com **Node.js**, **Express** e **MongoDB Atlas**, projetada para gestão de usuários, treinos e alimentação. Ideal para aplicações fitness ou de estilo de vida saudável.
 
 ---
 
-## 🧪 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Node.js** — Ambiente de execução.
 - **Express.js** — Framework web.
@@ -18,7 +18,7 @@ API RESTful desenvolvida com **Node.js**, **Express** e **MongoDB Atlas**, proje
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 API-Mongodb/
@@ -46,17 +46,15 @@ API-Mongodb/
 
 ---
 
-## 🗂️ Modelagem do Banco de Dados
-
-> Abaixo, insira a imagem da modelagem do banco de dados:
+## Modelagem do Banco de Dados
 
 ![Modelagem do banco de dados](imagens/2cb275e1-5f07-4370-92f1-18ec861a8029.jpeg)
 
 ---
 
-## 🔧 Modelos de Dados
+## Modelos de Dados
 
-### 👤 Usuario
+### Usuario
 
 ```json
 {
@@ -66,11 +64,9 @@ API-Mongodb/
 }
 ```
 
-> 🔒 **Recomenda-se criptografar senhas com bcrypt** em produção.
-
 ---
 
-### 🏋️ Treino
+### Treino
 
 ```json
 {
@@ -83,7 +79,7 @@ API-Mongodb/
 
 ---
 
-### 🍽️ Alimentação
+### Alimentação
 
 ```json
 {
@@ -98,7 +94,7 @@ API-Mongodb/
 
 ## 📬 Endpoints da API
 
-### 🔐 Usuários (`/api/usuarios`)
+### Usuários (`/api/usuarios`)
 | Método | Rota             | Descrição             |
 |--------|------------------|------------------------|
 | POST   | `/`              | Cria novo usuário      |
@@ -108,7 +104,7 @@ API-Mongodb/
 
 ---
 
-### 🏋️ Treinos (`/api/treinos`)
+### Treinos (`/api/treinos`)
 | Método | Rota                      | Descrição                        |
 |--------|---------------------------|----------------------------------|
 | POST   | `/`                       | Cria treino                      |
@@ -118,7 +114,7 @@ API-Mongodb/
 
 ---
 
-### 🍽️ Alimentações (`/api/alimentacoes`)
+### Alimentações (`/api/alimentacoes`)
 | Método | Rota                      | Descrição                            |
 |--------|---------------------------|--------------------------------------|
 | POST   | `/`                       | Cria alimentação                     |
@@ -129,7 +125,7 @@ API-Mongodb/
 
 ---
 
-### 📊 Dashboard (`/api/dashboard`)
+### Dashboard (`/api/dashboard`)
 | Método | Rota                                 | Descrição                                   |
 |--------|--------------------------------------|---------------------------------------------|
 | GET    | `/api/dashboard/:usuarioId`          | Retorna resumo de treinos e alimentação     |
