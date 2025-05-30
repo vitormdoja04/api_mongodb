@@ -147,37 +147,37 @@ API-Mongodb/
 
 ---
 
-## 🧪 Testes com Postman
+## 🚀 Instalação e Uso da API
 
-1. Abra o Postman.
-2. Importe o arquivo: `API Node.js + Mongodb.postman_collection.json`
-3. Use o endpoint base: `http://localhost:4000`
-
----
-
-## ▶️ Como Executar o Projeto
-
-### 1. Clone o repositório
+### 1. 📦 Clonar o Repositório
 
 ```bash
-git clone https://github.com/SeuUsuario/API-Mongodb.git
-cd API-Mongodb
+git clone https://github.com/vitormdoja04/api_mongodb.git
+cd api_mongodb
 ```
 
-### 2. Instale as dependências
+### 2. 📁 Instalar Dependências
 
 ```bash
 npm install
 ```
 
-### 3. Crie o arquivo `.env`
+### 3. 🔐 Configurar Variáveis de Ambiente
+
+Crie um arquivo `.env` com:
 
 ```env
 PORT=4000
-MONGODB_URI=sua_string_do_mongodb_atlas
+MONGODB_URI=<sua_string_de_conexão_do_MongoDB_Atlas>
 ```
 
-### 4. Rode a API
+### 4. 🛡️ Configurar Acesso no MongoDB Atlas
+
+- Vá em **Network Access** no painel do MongoDB Atlas.
+- Clique em **Add IP Address**.
+- Escolha **Allow access from anywhere** ou adicione o IP da sua máquina.
+
+### 5. ▶️ Iniciar o Servidor
 
 Modo desenvolvimento:
 
@@ -193,13 +193,30 @@ npm start
 
 ---
 
-## 🔒 Boas Práticas
+## 🧪 Testando a API com Postman
 
-- Nunca envie `.env` para o GitHub.
-- Use validações e autenticação (ex: JWT) em produção.
-- Use `bcrypt` para criptografar senhas.
-- Adicione logs para monitoramento.
-- Separe ambiente de testes e produção.
+### 1. 📥 Importar Coleção do Postman
+
+- Abra o Postman.
+- Clique em **Import > File > Upload Files**.
+- Selecione `API Node.js + Mongodb.postman_collection.json`.
+
+### 2. ⚙️ Configurar Ambiente
+
+- Vá em **Manage Environments** > **Add**.
+- Adicione `base_url = http://localhost:4000`.
+- Selecione o ambiente no topo do Postman.
+
+### 3. 📤 Testar Endpoints
+
+- Clique em uma requisição da coleção e depois em **Send**.
+
+---
+
+## 🧰 Recursos Úteis
+
+- [MongoDB Atlas Docs](https://www.mongodb.com/docs/atlas/)
+- [Postman Docs](https://learning.postman.com/docs/getting-started/introduction/)
 
 ---
 
