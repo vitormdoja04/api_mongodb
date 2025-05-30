@@ -37,10 +37,8 @@ API-Mongodb/
 │   └── alimentacaoRoutes.js
 ├── app.js                # Configuração principal da aplicação
 ├── server.js             # Inicialização do servidor e conexão MongoDB
-├── .env                  # Variáveis de ambiente
 ├── package.json          # Dependências e scripts
 ├── package-lock.json     # Travamento de dependências
-├── node_modules/         # Pacotes instalados (não versionado)
 ├── API Node.js + Mongodb.postman_collection.json  # Testes via Postman
 ```
 
