@@ -162,7 +162,7 @@ Crie um arquivo `.env` com:
 
 ```env
 PORT=4000
-MONGODB_URI=<sua_string_de_conexão_do_MongoDB_Atlas>
+MONGODB_URI=mongodb+srv://treinoeAlimentacao:bancomongodb@apimongoose.5xjfgqa.mongodb.net/AppTreinoeAlimentacao?retryWrites=true&w=majority&appName=APIMongoose
 ```
 
 ### 4. 🛡️ Configurar Acesso no MongoDB Atlas
